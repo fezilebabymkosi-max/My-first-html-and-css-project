@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    padding: 50px;
+    padding-top: 20px;
+    background-color: rgb(220, 177, 177);
+}
+h1{
+    color: blueviolet;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+h2{
+    color: rgb(35, 27, 112);
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+h3{
+    color:#115e16;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+img{
+    width:350px;
+    height:auto;
+    border-radius: 12px; 
+}
+p{
+    font-size: 20px;
+    line-height: 1.6;
+
+}
+ul{
+    font-size: 18px;
+    color: rgb(150, 25, 35);
+}
+/* styling for the quote section,but not the pictures*/
+nav a{
+    text-decoration: none;
+    color: darkblue;
+}
+nav a:hover{
+    text-decoration: underline;
+    color: rgb(96, 144, 2)
+}
+nav a:visited{
+    color: whitesmoke
+}
+blockquote{
+    font-style: italic;
+    color:#555555;
+    border: 5px dashed #e0d7d7;
+}
+footer{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+}
